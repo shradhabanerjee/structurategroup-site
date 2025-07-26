@@ -26,9 +26,9 @@ Our team is led by seasoned experts who have shaped some of India’s most compl
 
 From **concept to completion**, we ensure every structure stands tall — both literally and reputationally.
 
-<﻿hr>
+- - -
 
-## Let's Build Together
+## 📞 Let's Build Together
 
 Ready to take your project forward?\
 📧 Email: [svv@structurategroup.com](mailto:svv@structurategroup.com)\
