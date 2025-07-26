@@ -2,7 +2,8 @@
 title: Building India's Backbone — One Structure at a Time
 ---
 
-![Founder at Site](/uploads/dad-on-site.jpg)
+<img src="/uploads/dad-on-site.jpg" alt="Founder at Site" width="300" style="border-radius:12px; display:block; margin:auto;" />
+
 
 At **Structurate Group**, we specialize in transforming architectural vision into resilient structures — from soaring bridges and cutting-edge metro systems to landmark buildings across India.
 
