@@ -6,8 +6,8 @@ media_folder: "uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "page"
-    label: "Page"
+  - name: "pages"
+    label: "Pages"
     files:
       - label: "Home Page"
         name: "home"
