@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Structurate Group - Sudhakar Vishnupurikar</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <title>Structurate Group</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
-<h1>Welcome to Structurate Group</h1>
-<p>This is a simple static site powered by Netlify CMS by Shraddha.</p>
+<h1 id="page-title"></h1>
+<div id="content">Loading content...</div>
+
+<script>
+    fetch('home.md')
+        .then(res => res.text())
+        .then(text => {
+            const titleMatch = text.match(/title:\s*(.*)/);
+            const bodyMarkdown = text.split('---')[2] || '';
+
+            if (titleMatch) {
+                document.getElementById('page-title').innerText = titleMatch[1].trim();
+            }
+
+            document.getElementById('content').innerHTML = marked.parse(bodyMarkdown.trim());
+        })
+        .catch(err => {
+            document.getElementById('content').innerText = "Failed to load content.";
+            console.error(err);
+        });
+</script>
 </body>
 </html>
