@@ -1,5 +1,5 @@
 ---
-title: Building World's Backbone — One Structure at a Time
+title: Building World's Backbone
 ---
 <img src="/uploads/dad-on-site.jpg" alt="Founder at Site" width="300" height="600" style="border-radius:12px; display:block; margin:auto;" />
 
